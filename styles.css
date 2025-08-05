@@ -15,16 +15,53 @@
     background-color: skyblue;
     grid-row: 1 / 5;
     grid-column: 1 / 2;
+    display: grid;
+    grid-template-rows: repeat(12, 35px) 1fr;
+    justify-content: center;
+}
+
+#sidebar div {
+    border: 1px solid purple;
 }
 
 #header {
     background-color: black;
     grid-row: 1 / 2;
     grid-column: 2 / 5;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 2fr 1fr;
+}
+
+#header div {
+    border: 1px solid red;
 }
 
 #main-content {
     background-color: orange;
     grid-row: 2 / 5;
     grid-column: 2 / 5;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#main-content div {
+    border: 1px solid darkgreen;
+}
+
+#cards {
+    grid-row: 1 / 4;
+    grid-column: 1 / 3;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+#sideRight {
+    grid-row: 1 / 4;
+    grid-column: 3 / 4;
+    display: grid;
+    grid-row: 1fr 1fr;
+    grid-column: 1fr;
 }
