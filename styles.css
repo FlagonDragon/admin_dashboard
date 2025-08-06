@@ -1,6 +1,11 @@
 :root {
     box-sizing: border-box;
-    margin: 0;
+    font-family: 'Roboto';
+    letter-spacing: 0.5px;
+}
+
+body {
+    margin: 0px;
 }
 
 #container {
@@ -11,17 +16,45 @@
     margin: 0;
 }
 
-#sidebar {
-    background-color: skyblue;
+.sidebar {
+    background-color:#1c93d2;
     grid-row: 1 / 5;
     grid-column: 1 / 2;
     display: grid;
     grid-template-rows: repeat(12, 35px) 1fr;
-    justify-content: center;
+    grid-template-columns: 1fr;
+    gap: 1px;
+    text-align: center;
 }
 
-#sidebar div {
-    border: 1px solid purple;
+.sidebar div {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    /* border: 1px solid purple; */
+    align-self: center;
+    justify-self: start;
+}
+
+.sidebar img {
+    position: relative;
+    top: 3px;
+    height: 17px;
+    margin-left: 20px;
+    margin-right: 17px;
+}
+
+#dashboard img {
+    height: 34px;
+    margin-top: 24px;
+    margin-left: 12px;
+    margin-right: 8px;
+}
+
+#dashboard span {
+    font-size: 20px;
+    position: relative;
+    top: -8px;
 }
 
 #header {
@@ -56,6 +89,7 @@
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+    /* gap: 5px; */
 }
 
 #sideRight {

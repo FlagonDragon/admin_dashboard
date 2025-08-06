@@ -5,23 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <div id="container">
-    <div id="sidebar">
-        <div>Dashboard</div>
+    <div class="sidebar">
+        <div id="dashboard"><img src="svg/view-dashboard.svg" id="dashIcon"><span>Dashboard</span></div>
+        <div id="empty"></div>
+        <div id="home"> <img src="svg/home.svg" id="house">Home</div>
+        <div><img src="svg/card-account-details-outline.svg">Profile</div>
+        <div><img src="svg/message-reply.svg">Messages</div>
+        <div><img src="svg/clock-time-three.svg">History</div>
+        <div><img src="svg/note-multiple.svg">Tasks</div>
+        <div><img src="svg/account-group.svg">Communities</div>
         <div></div>
-        <div>Home</div>
-        <div>Profile</div>
-        <div>Messages</div>
-        <div>History</div>
-        <div>Tasks</div>
-        <div>Communities</div>
-        <div></div>
-        <div>Settings</div>
-        <div>Support</div>
-        <div>Privacy</div>
+        <div><img src="svg/cog.svg">Settings</div>
+        <div><img src="svg/help-box.svg">Support</div>
+        <div><img src="svg/shield-check.svg">Privacy</div>
         <div></div>
     </div>
 
@@ -47,6 +50,10 @@
         </div>
     </div>
 </div>
+
+<!-- <svg><use href="#home" width="18"></use></svg> -->
+
+<!-- <svg id="home" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" /></svg> -->
     
 </body>
 </html>
