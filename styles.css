@@ -1,7 +1,6 @@
 :root {
     box-sizing: border-box;
     font-family: 'Roboto';
-    letter-spacing: 0.5px;
 }
 
 body {
@@ -25,6 +24,7 @@ body {
     grid-template-columns: 1fr;
     gap: 1px;
     text-align: center;
+    letter-spacing: 0.5px;
 }
 
 .sidebar div {
@@ -63,7 +63,7 @@ body {
     grid-column: 2 / 5;
     display: grid;
     grid-template-rows: 1fr 2fr;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 300px;
 }
 
 .header div {
@@ -126,12 +126,13 @@ form img {
 .header3 {
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    padding-left: 50px;
+    gap: 15px;
+    padding-top: 15px;
+    padding-left: 35px;
 }
 
 #pfp2 {
-    height: 45px;
+    height: 50px;
     border-radius: 50%;
     border: 1px solid black;
 }
@@ -139,6 +140,39 @@ form img {
 .header3 div {
     display: flex;  
     flex-direction: column;
+    padding-top: 8px;
+    gap: 5px;
+}
+
+.header3 span {
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.header3 span:first-child{
+    font-size: 9.5px;
+}
+
+.header4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    padding-left: 2px;
+    padding-top: 10px;
+}
+
+.header4 button {
+    font-size: 10.5px;
+    font-weight: 550;
+    text-align: center;
+    color: white;
+    background-color:#1c93d2;
+    border: none;
+    border-radius: 30px;
+    height: 29px;
+    min-width: 71.5px;
 }
 
 #main-content {
