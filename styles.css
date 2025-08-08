@@ -66,9 +66,9 @@ body {
     grid-template-columns: 1fr 300px;
 }
 
-.header div {
+/* .header > div {
     border: 1px solid red;
-}
+} */
 
 .header1 {
     padding-top: 15px;
@@ -98,29 +98,30 @@ form img {
 }
 
 .header2 {
-    padding-top: 12px;
+    display: flex;
+    padding-top: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 18.5px;
 }
 
 #bell {
     height: 17px;
-    margin-left: 32px;
-    position: relative;
-    top: -10px;
+}
+
+#pfp {
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid black;
 }
 
 .header2 span {
     font-size: 13px;
     font-weight: bold;
-    margin-left: 20px;
-    position: absolute;
-    top: 20px;
-}
-
-#pfp {
-    height: 29px;
-    border-radius: 50%;
-    border: 1px solid black;
-    margin-left: 20px;
+    position: relative;
+    top: -3px;
+    left: 5px;
 }
 
 .header3 {
@@ -140,8 +141,8 @@ form img {
 .header3 div {
     display: flex;  
     flex-direction: column;
-    padding-top: 8px;
-    gap: 5px;
+    padding-top: 10px;
+    gap: 3px;
 }
 
 .header3 span {
