@@ -284,6 +284,61 @@ form img {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
     display: grid;
-    grid-template-rows: 1fr 20px 1fr;
+    grid-template-rows: 235px 50px 222px;
     grid-template-columns: 1fr;
+}
+
+/* .sideRight > div {
+    border: 1px solid red;
+} */
+
+.side1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 14px 20px;
+    border-radius: 5px;
+}
+
+.side1 div {
+    flex: 1;
+    /* border: 1px solid blue; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 10px 0px;
+    margin: 0px;
+    gap: 2px;
+}
+
+#middleDiv {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.side1 span {
+    font-size: 9.5px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.side1 p {
+    font-size: 8.5px;
+    color: gray;
+    margin: 0px;
+}
+
+.side2 {
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.side2 span {
+    position: relative;
+    top: -7px;
+    right: 3px;
 }
