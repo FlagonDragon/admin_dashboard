@@ -81,7 +81,7 @@ form {
 }
 
 input[type='text'] {
-    background-color: gainsboro;
+    background-color: #e1e8f0;
     border: none;
     border-radius: 10px;
     flex: 1;
@@ -177,7 +177,7 @@ form img {
 }
 
 .main-content {
-    background-color: gainsboro;
+    background-color: #e1e8f0;
     grid-row: 2 / 3;
     grid-column: 2 / 3;
     display: grid;
@@ -342,3 +342,91 @@ form img {
     top: -7px;
     right: 3px;
 }
+
+.side3 {
+    font-size: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 58px 1fr;
+    padding: 10px 5px;
+}
+
+.img1 {
+    grid-template-rows: 1 / 2;
+    grid-template-columns: 1 / 2;
+}
+
+.acc1 {
+    grid-template-rows: 1 / 2;
+    grid-template-columns: 2 / 3;
+}
+
+.img2 {
+    grid-template-rows: 2 / 3;
+    grid-template-columns: 1 / 2;
+}
+
+.acc2 {
+    grid-template-rows: 2 / 3;
+    grid-template-columns: 2 / 3;
+}
+
+.img3 {
+    grid-template-rows: 3 / 4;
+    grid-template-columns: 1 / 2;
+}
+
+.acc3 {
+    grid-template-rows: 3 / 4;
+    grid-template-columns: 2 / 3;
+}
+
+.img4 {
+    grid-template-rows: 4 / 5;
+    grid-template-columns: 1 / 2;
+}
+
+.acc4 {
+    grid-template-rows: 4 / 5;
+    grid-template-columns: 2 / 3;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: start;
+    padding-right: 12px;
+    padding-top: 7px;
+}
+
+.images img {
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.accounts {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding-top: 8px;
+    gap: 2px;
+}
+
+.acounts span, .accounts p {
+    margin: 0;
+    padding: 0;
+}
+
+.accounts p {
+    color: gray;
+}
+
+/* .side3 > div {
+    border: 1px solid blue;
+} */
+
