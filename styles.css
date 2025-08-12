@@ -9,7 +9,7 @@ body {
 
 #container {
     display: grid;
-    grid-template-rows: 125px 1fr;
+    grid-template-rows: 126px 1fr;
     grid-template-columns: 216px 1fr;
     height: 100vh;
     margin: 0;
@@ -25,6 +25,7 @@ body {
     gap: 1px;
     text-align: center;
     letter-spacing: 0.5px;
+    z-index: 10;
 }
 
 .sidebar div {
@@ -64,6 +65,8 @@ body {
     display: grid;
     grid-template-rows: 1fr 2fr;
     grid-template-columns: 1fr 300px;
+    box-shadow: 0px -5px 10px black;
+    z-index: 5;
 }
 
 /* .header > div {
@@ -161,18 +164,18 @@ form img {
     align-items: center;
     gap: 20px;
     padding-left: 2px;
-    padding-top: 10px;
+    padding-top: 8px;
 }
 
 .header4 button {
-    font-size: 10.5px;
+    font-size: 11px;
     font-weight: 550;
     text-align: center;
     color: white;
     background-color:#1c93d2;
     border: none;
     border-radius: 30px;
-    height: 29px;
+    height: 28.5px;
     min-width: 71.5px;
 }
 
@@ -182,10 +185,10 @@ form img {
     grid-column: 2 / 3;
     display: grid;
     grid-template-rows: 35px 1fr;
-    grid-template-columns: 1fr 197px;
+    grid-template-columns: 1fr 198px;
     gap: 15px;
     padding-left: 14px;
-    padding-right: 25px;
+    padding-right: 23px;
 }
 
 /* .main-content > div {
@@ -222,11 +225,12 @@ form img {
 .card {
     height: 155px;
     display: grid;
-    grid-template-rows: 1fr 37px;
+    grid-template-rows: 1fr 39px;
     grid-template-columns: 6px 1fr;
     border: none;
     border-radius: 5px;
     overflow: hidden;
+    box-shadow: 0px 1px 5px -3.5px black;
 }
 
 .decor {
@@ -269,7 +273,7 @@ form img {
     align-items: start;
     align-content: start;
     gap: 19.5px;
-    padding-right: 19.5px;
+    padding-right: 19px;
 }
 
 .footer img {
@@ -301,6 +305,7 @@ form img {
     padding-right: 18px;
     padding-top: 12px;
     padding-bottom: 16px;
+    box-shadow: 0px 1px 5px -3px black;
 }
 
 .side1 div {
@@ -356,6 +361,7 @@ form img {
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: 60px 1fr;
     padding: 10px 5px;
+    box-shadow: 0px 1px 5px -3px black;
 }
 
 .img1 {
